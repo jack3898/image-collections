@@ -1,0 +1,11 @@
+{
+	"manifest_version": 2,
+	"name": "Image collector",
+	"version": "1.0",
+	"description": "Create image collections on the web and do things!",
+	"browser_action": {
+		"default_icon": "icon.png",
+		"default_popup": "index.html"
+	},
+	"permissions": ["activeTab", "storage", "contextMenus"]
+}
